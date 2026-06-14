@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Osmose';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/osmose/AT-Osmose-Medium.otf?d=294&mxId=00000000') format('opentype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 1000;
+  src: url('../fonts/raleway/Raleway.ttf?d=294&mxId=00000000') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unna';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/unna/Unna-Regular.ttf?d=294&mxId=00000000') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unna';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/unna/Unna-Bold.ttf?d=294&mxId=00000000') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 1000;
+  src: url('../fonts/noto/NotoNaskhArabic-VariableFont_wght.ttf?d=294&mxId=00000000')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/tajawal/Tajawal-Regular.ttf?d=294&mxId=00000000') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/tajawal/Tajawal-Bold.ttf?d=294&mxId=00000000') format('truetype');
+}

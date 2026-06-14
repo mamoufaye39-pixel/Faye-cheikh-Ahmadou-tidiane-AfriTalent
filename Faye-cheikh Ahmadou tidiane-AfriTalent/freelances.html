@@ -19,5 +19,354 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
 ></script>
 <!-- Votre script JavaScript -->
 <script src="js/main.js"></script>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">AfriTalent</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="freelances.html">Freelances</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tarifs.html">Tarifs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-<section id="hero" class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1>Le futur du travail en Afrique</h1>
+            <p>Trouvez les meilleurs experts pour vos projets numériques.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/1705419259-dropshipping.jpg" alt="Équipe travaillant" class="img-fluid">
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+  <main>
+
+    <section class="page-hero fade-section" aria-label="En-tête de la page freelances">
+      <div class="container text-center">
+        <span class="section-tag">Nos talents</span>
+        <h1 class="page-title">Découvrez nos <span class="highlight">freelances</span></h1>
+        <p class="page-subtitle">Plus de 2 500 professionnels qualifiés prêts à transformer votre projet en réalité.</p>
+      </div>
+    </section>
+
+    <section class="section-filters" aria-label="Filtres de recherche">
+      <div class="container">
+        <div class="filters-bar d-flex flex-wrap align-items-center gap-2 justify-content-center">
+          <span class="filter-label">Filtrer par :</span>
+          <button class="btn filter-btn active" data-category="tous" aria-pressed="true">Tous</button>
+          <button class="btn filter-btn" data-category="dev-web" aria-pressed="false">Développement Web</button>
+          <button class="btn filter-btn" data-category="design" aria-pressed="false">Design UI/UX</button>
+          <button class="btn filter-btn" data-category="marketing" aria-pressed="false">Marketing Digital</button>
+          <button class="btn filter-btn" data-category="data-ia" aria-pressed="false">Data & IA</button>
+          <button class="btn filter-btn" data-category="redaction" aria-pressed="false">Rédaction Tech</button>
+          <button class="btn filter-btn" data-category="devops" aria-pressed="false">DevOps & Cloud</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section-freelances" aria-label="Liste des freelances">
+      <div class="container">
+        <div class="row g-4" id="freelancesGrid">
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="dev-web">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/WhatsApp Image 2026-06-12 at 01.26.29 (1).jpeg" width="300" height="300" alt="Photo de Tidjan" class="freelance-avatar" />
+                <div class="freelance-badge">
+                  <i class="bi bi-patch-check-fill"></i> Vérifié
+                </div>
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Tidjan</h2>
+                <p class="freelance-specialty"><i class="bi bi-code-slash me-1"></i>Développeur Full-Stack</p>
+                <p class="freelance-bio">Expert React & Node.js avec 5 ans d'expérience. Spécialisé dans les applications web performantes pour startups africaines.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>45 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span class="rating-num">(4.7)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Kwame Mensah">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="design">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/OIP (4).jpg"width="300" height="300" alt="Photo de Aya Traoré" class="freelance-avatar" />
+                <div class="freelance-badge">
+                  <i class="bi bi-patch-check-fill"></i> Vérifié
+                </div>
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Aya Traoré</h2>
+                <p class="freelance-specialty"><i class="bi bi-palette me-1"></i>Designer UI/UX Senior</p>
+                <p class="freelance-bio">Passionnée par les interfaces humaines et accessibles. Portfolio incluant 50+ applications mobiles et web primées.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>55 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <span class="rating-num">(5.0)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Aya Traoré">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="data-ia">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/OIP (8).jpg"width="300" height="300" alt="Photo de Ibrahim Coulibaly" class="freelance-avatar" />
+                <div class="freelance-badge">
+                  <i class="bi bi-patch-check-fill"></i> Vérifié
+                </div>
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Ibrahim Coulibaly</h2>
+                <p class="freelance-specialty"><i class="bi bi-robot me-1"></i>Ingénieur IA & Machine Learning</p>
+                <p class="freelance-bio">Docteur en Data Science, spécialisé en NLP et vision par ordinateur. A travaillé avec des entreprises Fortune 500.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>70 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span class="rating-num">(4.8)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Ibrahim Coulibaly">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="marketing">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/OIP (6).jpg"width="300" height="300" alt="Photo de Nadia Benzema" class="freelance-avatar" />
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Nadia Benzema</h2>
+                <p class="freelance-specialty"><i class="bi bi-megaphone me-1"></i>Experte Marketing Digital</p>
+                <p class="freelance-bio">Spécialiste SEO/SEA et stratégie de contenu. A boosté le trafic de +300% pour plus de 20 marques africaines.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>35 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                    <span class="rating-num">(4.3)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Nadia Benzema">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="devops">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/OIP (5).jpg"width="300" height="300" alt="Photo de Seydou Diarra" class="freelance-avatar" />
+                <div class="freelance-badge">
+                  <i class="bi bi-patch-check-fill"></i> Vérifié
+                </div>
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Seydou Diarra</h2>
+                <p class="freelance-specialty"><i class="bi bi-cloud me-1"></i>Architecte DevOps & Cloud</p>
+                <p class="freelance-bio">Certifié AWS & GCP. Expert en CI/CD, Kubernetes et infrastructure as code. 7 ans d'expérience en production.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>60 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <span class="rating-num">(4.9)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Seydou Diarra">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="redaction">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/WhatsApp Image 2026-06-12 at 01.18.18.jpeg"width="300" height="300" alt="Photo de Mariama Bah" class="freelance-avatar" />
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Mariama Bah</h2>
+                <p class="freelance-specialty"><i class="bi bi-pencil-square me-1"></i>Rédactrice Tech & Contenu</p>
+                <p class="freelance-bio">Journaliste tech multilingue (FR/EN/AR). Spécialisée dans les articles de fond sur l'innovation africaine et l'IA.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>25 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span class="rating-num">(4.6)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Mariama Bah">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="dev-web">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/OIP (2).jpg"width="300" height="300" alt="Photo de Chioma Okafor" class="freelance-avatar" />
+                <div class="freelance-badge">
+                  <i class="bi bi-patch-check-fill"></i> Vérifié
+                </div>
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Chioma Okafor</h2>
+                <p class="freelance-specialty"><i class="bi bi-phone me-1"></i>Développeuse Mobile (Flutter)</p>
+                <p class="freelance-bio">Experte Flutter et Dart, créatrice de 30+ applications publiées sur l'App Store et Google Play. Basée à Lagos.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>50 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <span class="rating-num">(4.9)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Chioma Okafor">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="design">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/OIP (7).jpg"width="300" height="300" alt="Photo de Moussa Keita" class="freelance-avatar" />
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Moussa Keita</h2>
+                <p class="freelance-specialty"><i class="bi bi-vector-pen me-1"></i>Motion Designer & Illustrateur</p>
+                <p class="freelance-bio">Animateur et illustrateur digital primé. Crée des identités visuelles mémorables pour des marques à travers l'Afrique.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>40 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                    <span class="rating-num">(4.4)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Moussa Keita">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 freelance-card-wrapper" data-category="data-ia">
+            <article class="freelance-card">
+              <div class="freelance-header">
+                <img src="images/OIP (1).jpg"width="300" height="300" alt="Photo de Zineb Rabiot" class="freelance-avatar" />
+                <div class="freelance-badge">
+                  <i class="bi bi-patch-check-fill"></i> Vérifié
+                </div>
+              </div>
+              <div class="freelance-body">
+                <h2 class="freelance-name">Zineb Rabiot</h2>
+                <p class="freelance-specialty"><i class="bi bi-bar-chart me-1"></i>Analyste Data & BI</p>
+                <p class="freelance-bio">Experte Power BI, Tableau et Python. Transforme les données brutes en insights stratégiques actionnables pour les décideurs.</p>
+                <div class="freelance-meta d-flex justify-content-between align-items-center mt-3">
+                  <span class="freelance-rate"><i class="bi bi-currency-dollar"></i>48 000 FCFA/h</span>
+                  <div class="freelance-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span class="rating-num">(4.7)</span>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary-custom w-100 mt-3" aria-label="Voir le profil de Zineb Amrani">Voir le profil</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        
+        <div id="noResults" class="text-center py-5 d-none">
+          <i class="bi bi-search fs-1 text-muted"></i>
+          <p class="mt-3 text-muted">Aucun freelance trouvé dans cette catégorie.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="site-footer" aria-label="Pied de page">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="footer-brand d-flex align-items-center gap-2 mb-3">
+            
+          </div>
+          <p class="footer-desc">La plateforme de référence pour connecter les meilleurs freelances tech africains avec des entreprises du monde entier.</p>
+          <div class="social-links d-flex gap-3 mt-3">
+            <a href="#" aria-label="Twitter AfriTalent"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="LinkedIn AfriTalent"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Instagram AfriTalent"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook AfriTalent"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <h4 class="footer-heading">Liens utiles</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="freelances.html">Freelances</a></li>
+            <li><a href="tarifs.html">Tarifs</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h4 class="footer-heading">Ressources</h4>
+          <ul class="footer-links">
+            <li><a href="#">Guide du freelance</a></li>
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Conditions d'utilisation</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3">
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="bi bi-envelope me-2"></i><a href="mailto:hello@afritalent.com">hello@afritalent.com</a></li>
+            <li><i class="bi bi-telephone me-2"></i>+221 77 033 42 15</li>
+            <li><i class="bi bi-geo-alt me-2"></i>Dakar, Senegal</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom text-center mt-4 pt-4">
+        <p>&copy; <span id="currentYear"></span> AfriTalent. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="btn-back-top" aria-label="Retour en haut de page">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
