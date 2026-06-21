@@ -653,3 +653,73 @@ footer p {
     height: 60px;
   }
 }
+
+body.dark-mode {
+  background-color: var(--color-dark);
+  color: #E4E6EB;
+}
+
+body.dark-mode #how-it-works,
+body.dark-mode #categories,
+body.dark-mode #testimonials {
+  background-color: #1B2C4D;
+}
+
+body.dark-mode .bento-card,
+body.dark-mode .category-card,
+body.dark-mode .testimonial-card {
+  background-color: #22345A;
+  color: #E4E6EB;
+}
+
+body.dark-mode .category-card p,
+body.dark-mode .testimonial-text,
+body.dark-mode .section-subtitle {
+  color: #B0B8C9;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #E4E6EB;
+}
+
+body.dark-mode #darkModeToggle {
+  background-color: var(--color-secondary);
+  color: var(--color-dark);
+  border-color: var(--color-secondary);
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: opacity var(--transition-speed), transform var(--transition-speed), background-color var(--transition-speed);
+  z-index: 999;
+}
+
+#backToTop.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#backToTop:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-dark);
+}
