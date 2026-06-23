@@ -51,7 +51,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-white);
   line-height: 1.6;
-  
+ 
   padding-top: 76px;
 }
 
@@ -735,3 +735,88 @@ body.dark-mode #darkModeToggle {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ======================================================
+   COMMIT 8 — FREELANCES & FORMULAIRE DE CONTACT
+   ====================================================== */
+
+/* --- Filtres freelances --- */
+.filter-btn {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 0.5rem 1.4rem;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  background-color: white;
+  transition: all var(--transition-speed);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.freelance-card {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  height: 100%;
+}
+
+.freelance-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(20, 33, 61, 0.15);
+}
+
+.freelance-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-secondary);
+  margin: 0 auto var(--spacing-sm);
+}
+
+/* --- Formulaire de contact --- */
+.form-control {
+  border-radius: var(--radius);
+  border: 2px solid #dee2e6;
+  padding: 0.75rem 1rem;
+  font-family: var(--font-body);
+  transition: border-color var(--transition-speed);
+}
+
+.form-control:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 0.2rem rgba(31, 78, 121, 0.15);
+}
+
+/* Bordure verte si champ valide */
+.form-control.is-valid {
+  border-color: #28a745;
+}
+
+/* Bordure rouge si champ invalide */
+.form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+/* Message d'erreur sous chaque champ */
+.error-message {
+  color: #dc3545;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  display: none;
+}
+
+.error-message.visible {
+  display: block;
+}
+
+/* Message de succès après soumission */
+#successMessage {
+  display: none;
+  background-color: #d4edda
+
